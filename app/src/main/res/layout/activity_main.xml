@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wrinth.english_is_easy.MainActivity">
+
+    <!-- Test -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/test">
+        <TextView
+            android:id="@+id/test"
+            style="@style/ListItemStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/test" />
+    </FrameLayout>
+
+    <!-- Prepare -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/prepare">
+        <TextView
+            android:id="@+id/prepare"
+            style="@style/ListItemStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/prepare" />
+    </FrameLayout>
+
+    <!-- About -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/about">
+        <TextView
+            android:id="@+id/about"
+            style="@style/ListItemStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/about" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">English_is_easy</string>
+    <string name="test">Test</string>
+    <string name="prepare">Prepare</string>
+    <string name="about">About</string>
+    <string name="category_fruits">Fruit</string>
+    <string name="category_vegetables">Vegetable</string>
+    <string name="category_flowers">Flower</string>
+    <string name="category_mammals">Mammal</string>
+    <string name="category_poultries">Poultry</string>
+    <string name="category_amphibians">Amphibian</string>
+    <string name="category_birds">Bird</string>
+    <string name="category_fishes">Fish</string>
+    <string name="category_crustaceans">Crustacean</string>
+    <string name="category_insects">Insect</string>
+    <string name="category_trees">Tree</string>
+
+</resources>
